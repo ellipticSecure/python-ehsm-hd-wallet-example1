@@ -55,6 +55,6 @@ if __name__ == '__main__':
             print(binascii.hexlify(sig).decode("utf-8"))
 
         finally:
-                mirkey.finalize()
+            mirkey.finalize()
     else:
         print("No devices found")
